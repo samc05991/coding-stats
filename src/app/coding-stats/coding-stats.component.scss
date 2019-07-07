@@ -1,0 +1,11 @@
+.my-stats-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 1050px) {
+    .my-stats-container {
+        grid-template-columns: auto;
+    }
+}
+  

@@ -1,5 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary: #81368F;
+$secondary: #279EA4;
+
+$white: #fbfbfa;
+
 body {
     margin: 0px;
-    background-color: #333333;
+    background-color: $white;
+    
+    h3, h4 {
+        font-family: 'Montserrat', sans-serif;
+    }
 }
